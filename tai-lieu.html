@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <title>Tài liệu học tập - Lớp 12A1 - Trường THPT Trường Chinh</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header__logo animate__animated animate__fadeInLeft">
+            <img src="./assets/imgs/logo.jpg" alt="School Logo">
+        </div>
+        <div class="header__content">
+            <h1 class="header__title animate__animated animate__fadeInDown">
+                Lớp 12A1 - Trường THPT Trường Chinh
+            </h1>
+            <span class="header__slogan animate__animated animate__fadeInUp animate__delay-1s">
+                " Đoàn kết là sức mạnh - học hết mình - chiến hết sức !"
+            </span>
+        </div>
+    </header>
+    
+    <nav class="menu">
+        <ul class="menu__list">
+            <li class="menu__list--item">
+                <a href="index.html">Trang Chủ</a>
+            </li>
+            <li class="menu__list--item">
+                <a href="gioi-thieu.html">Giới thiệu</a>
+            </li>
+            <li class="menu__list--item">
+                <a href="tin-tuc.html">Tin Tức</a>
+            </li>
+            <li class="menu__list--item">
+                <a href="su-kien.html">Sự kiện</a>
+            </li>
+            <li class="menu__list--item">
+                <a href="thanh-vien.html">Thành viên</a>
+            </li>
+            <li class="menu__list--item">
+                <a href="thanh-tich.html">Thành tích nổi bật</a>
+            </li>
+            <li class="menu__list--item">
+                <a href="hoat-dong.html">Hoạt động</a>
+            </li>
+            <li class="menu__list--item">
+                <a href="tai-lieu.html">Tài liệu học tập</a>
+            </li>
+          
+        </ul>
+    </nav>
+    
+    <section class="container">
+        <div class="section-container page-transition">
+            <!-- Tài liệu học tập -->
+            <div class="introduce" id="documents-section">
+                <div class="section-header">
+                    <img class="icon" src="./assets/imgs/icon-intro.png" alt="Tài liệu">
+                    <h4 class="introduce__title">
+                        Tài liệu học tập
+                    </h4>
+                </div>
+                
+                <div class="introduce__info">
+                    <div class="document-filters">
+                        <button class="filter-btn active" data-filter="all">Tất cả</button>
+                        <button class="filter-btn" data-filter="toan">Toán học</button>
+                        <button class="filter-btn" data-filter="van">Ngữ văn</button>
+                        <button class="filter-btn" data-filter="anh">Tiếng Anh</button>
+                        <button class="filter-btn" data-filter="ly">Vật lý</button>
+                        <button class="filter-btn" data-filter="hoa">Hóa học</button>
+                        <button class="filter-btn" data-filter="sinh">Sinh học</button>
+                        <button class="filter-btn" data-filter="su">Lịch sử</button>
+                        <button class="filter-btn" data-filter="dia">Địa lý</button>
+                        <button class="filter-btn" data-filter="gdcd">GDCD</button>
+                    </div>
+                    
+                    <div class="document-search">
+                        <input type="text" id="document-search-input" placeholder="Tìm kiếm tài liệu...">
+                        <button id="document-search-btn"><i class="fas fa-search"></i></button>
+                    </div>
+                    
+                    <div class="document-list">
+                        <!-- Toán học -->
+                        <div class="document-item" data-category="toan">
+                            <div class="document-icon">
+                                <i class="fas fa-file-pdf"></i>
+                            </div>
+                            <div class="document-info">
+                                <h3 class="document-title">Đề cương ôn tập Toán học kỳ 1</h3>
+                                <p class="document-desc">Tài liệu ôn tập các kiến thức trọng tâm Toán học kỳ 1 năm học 2024-2025</p>
+                                <div class="document-meta">
+                                    <span><i class="fas fa-calendar-alt"></i> 15/09/2024</span>
+                                    <span><i class="fas fa-download"></i> 245 lượt tải</span>
+                                </div>
+                            </div>
+                            <div class="document-actions">
+                                <a href="#" class="document-download-btn"><i class="fas fa-download"></i> Tải xuống</a>
+                                <a href="#" class="document-view-btn"><i class="fas fa-eye"></i> Xem trước</a>
+                            </div>
+                        </div>
+                        
+                        <div class="document-item" data-category="toan">
+                            <div class="document-icon">
+                                <i class="fas fa-file-pdf"></i>
+                            </div>
+                            <div class="document-info">
+                                <h3 class="document-title">Bài tập nâng cao Giải tích 12</h3>
+                                <p class="document-desc">Tuyển tập các bài tập nâng cao phần Giải tích dành cho học sinh lớp 12</p>
+                                <div class="document-meta">
+                                    <span><i class="fas fa-calendar-alt"></i> 20/08/2024</span>
+                                    <span><i class="fas fa-download"></i> 187 lượt tải</span>
+                                </div>
+                            </div>
+                            <div class="document-actions">
+                                <a href="#" class="document-download-btn"><i class="fas fa-download"></i> Tải xuống</a>
+                                <a href="#" class="document-view-btn"><i class="fas fa-eye"></i> Xem trước</a>
+                            </div>
+                        </div>
+                        
+                        <!-- Ngữ văn -->
+                        <div class="document-item" data-category="van">
+                            <div class="document-icon">
+                                <i class="fas fa-file-word"></i>
+                            </div>
+                            <div class="document-info">
+                                <h3 class="document-title">Phân tích tác phẩm Truyện Kiều</h3>
+                                <p class="document-desc">Tài liệu phân tích chi tiết tác phẩm Truyện Kiều của Nguyễn Du</p>
+                                <div class="document-meta">
+                                    <span><i class="fas fa-calendar-alt"></i> 05/09/2024</span>
+                                    <span><i class="fas fa-download"></i> 312 lượt tải</span>
+                                </div>
+                            </div>
+                            <div class="document-actions">
+                                <a href="#" class="document-download-btn"><i class="fas fa-download"></i> Tải xuống</a>
+                                <a href="#" class="document-view-btn"><i class="fas fa-eye"></i> Xem trước</a>
+                            </div>
+                        </div>
+                        
+                        <!-- Tiếng Anh -->
+                        <div class="document-item" data-category="anh">
+                            <div class="document-icon">
+                                <i class="fas fa-file-powerpoint"></i>
+                            </div>
+                            <div class="document-info">
+                                <h3 class="document-title">Ngữ pháp tiếng Anh trọng tâm lớp 12</h3>
+                                <p class="document-desc">Tổng hợp các điểm ngữ pháp tiếng Anh trọng tâm cần nắm vững cho kỳ thi THPT Quốc gia</p>
+                                <div class="document-meta">
+                                    <span><i class="fas fa-calendar-alt"></i> 10/09/2024</span>
+                                    <span><i class="fas fa-download"></i> 278 lượt tải</span>
+                                </div>
+                            </div>
+                            <div class="document-actions">
+                                <a href="#" class="document-download-btn"><i class="fas fa-download"></i> Tải xuống</a>
+                                <a href="#" class="document-view-btn"><i class="fas fa-eye"></i> Xem trước</a>
+                            </div>
+                        </div>
+                        
+                        <!-- Vật lý -->
+                        <div class="document-item" data-category="ly">
+                            <div class="document-icon">
+                                <i class="fas fa-file-pdf"></i>
+                            </div>
+                            <div class="document-info">
+                                <h3 class="document-title">Lý thuyết và bài tập Điện từ học</h3>
+                                <p class="document-desc">Tài liệu tổng hợp lý thuyết và bài tập phần Điện từ học lớp 12</p>
+                                <div class="document-meta">
+                                    <span><i class="fas fa-calendar-alt"></i> 25/08/2024</span>
+                                    <span><i class="fas fa-download"></i> 203 lượt tải</span>
+                                </div>
+                            </div>
+                            <div class="document-actions">
+                                <a href="#" class="document-download-btn"><i class="fas fa-download"></i> Tải xuống</a>
+                                <a href="#" class="document-view-btn"><i class="fas fa-eye"></i> Xem trước</a>
+                            </div>
+                        </div>
+                        
+                        <!-- Hóa học -->
+                        <div class="document-item" data-category="hoa">
+                            <div class="document-icon">
+                                <i class="fas fa-file-pdf"></i>
+                            </div>
+                            <div class="document-info">
+                                <h3 class="document-title">Phương pháp giải bài tập Hóa học hữu cơ</h3>
+                                <p class="document-desc">Tổng hợp các phương pháp giải bài tập Hóa học hữu cơ lớp 12</p>
+                                <div class="document-meta">
+                                    <span><i class="fas fa-calendar-alt"></i> 18/09/2024</span>
+                                    <span><i class="fas fa-download"></i> 189 lượt tải</span>
+                                </div>
+                            </div>
+                            <div class="document-actions">
+                                <a href="#" class="document-download-btn"><i class="fas fa-download"></i> Tải xuống</a>
+                                <a href="#" class="document-view-btn"><i class="fas fa-eye"></i> Xem trước</a>
+                            </div>
+                        </div>
+                        
+                        <!-- Sinh học -->
+                        <div class="document-item" data-category="sinh">
+                            <div class="document-icon">
+                                <i class="fas fa-file-powerpoint"></i>
+                            </div>
+                            <div class="document-info">
+                                <h3 class="document-title">Bài giảng Di truyền học</h3>
+                                <p class="document-desc">Bài giảng chi tiết về Di truyền học Mendel và Di truyền học quần thể</p>
+                                <div class="document-meta">
+                                    <span><i class="fas fa-calendar-alt"></i> 12/09/2024</span>
+                                    <span><i class="fas fa-download"></i> 156 lượt tải</span>
+                                </div>
+                            </div>
+                            <div class="document-actions">
+                                <a href="#" class="document-download-btn"><i class="fas fa-download"></i> Tải xuống</a>
+                                <a href="#" class="document-view-btn"><i class="fas fa-eye"></i> Xem trước</a>
+                            </div>
+                        </div>
+                        
+                        <!-- Lịch sử -->
+                        <div class="document-item" data-category="su">
+                            <div class="document-icon">
+                                <i class="fas fa-file-word"></i>
+                            </div>
+                            <div class="document-info">
+                                <h3 class="document-title">Tổng kết Lịch sử Việt Nam 1945-1975</h3>
+                                <p class="document-desc">Tài liệu tổng kết giai đoạn lịch sử Việt Nam từ 1945 đến 1975</p>
+                                <div class="document-meta">
+                                    <span><i class="fas fa-calendar-alt"></i> 08/09/2024</span>
+                                    <span><i class="fas fa-download"></i> 142 lượt tải</span>
+                                </div>
+                            </div>
+                            <div class="document-actions">
+                                <a href="#" class="document-download-btn"><i class="fas fa-download"></i> Tải xuống</a>
+                                <a href="#" class="document-view-btn"><i class="fas fa-eye"></i> Xem trước</a>
+                            </div>
+                        </div>
+                        
+                        <!-- Địa lý -->
+                        <div class="document-item" data-category="dia">
+                            <div class="document-icon">
+                                <i class="fas fa-file-pdf"></i>
+                            </div>
+                            <div class="document-info">
+                                <h3 class="document-title">Địa lý kinh tế Việt Nam</h3>
+                                <p class="document-desc">Tài liệu tổng hợp về Địa lý kinh tế Việt Nam lớp 12</p>
+                                <div class="document-meta">
+                                    <span><i class="fas fa-calendar-alt"></i> 22/08/2024</span>
+                                    <span><i class="fas fa-download"></i> 135 lượt tải</span>
+                                </div>
+                            </div>
+                            <div class="document-actions">
+                                <a href="#" class="document-download-btn"><i class="fas fa-download"></i> Tải xuống</a>
+                                <a href="#" class="document-view-btn"><i class="fas fa-eye"></i> Xem trước</a>
+                            </div>
+                        </div>
+                        
+                        <!-- GDCD -->
+                        <div class="document-item" data-category="gdcd">
+                            <div class="document-icon">
+                                <i class="fas fa-file-word"></i>
+                            </div>
+                            <div class="document-info">
+                                <h3 class="document-title">Ôn tập GDCD lớp 12</h3>
+                                <p class="document-desc">Tài liệu ôn tập môn Giáo dục công dân lớp 12 chuẩn bị cho kỳ thi THPT Quốc gia</p>
+                                <div class="document-meta">
+                                    <span><i class="fas fa-calendar-alt"></i> 15/08/2024</span>
+                                    <span><i class="fas fa-download"></i> 128 lượt tải</span>
+                                </div>
+                            </div>
+                            <div class="document-actions">
+                                <a href="#" class="document-download-btn"><i class="fas fa-download"></i> Tải xuống</a>
+                                <a href="#" class="document-view-btn"><i class="fas fa-eye"></i> Xem trước</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="document-pagination">
+                        <button class="pagination-btn active">1</button>
+                        <button class="pagination-btn">2</button>
+                        <button class="pagination-btn">3</button>
+                        <span class="pagination-dots">...</span>
+                        <button class="pagination-btn">10</button>
+                        <button class="pagination-next"><i class="fas fa-chevron-right"></i></button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Đề thi -->
+            <div class="introduce" id="exams-section">
+                <div class="section-header">
+                    <img class="icon" src="./assets/imgs/icon-intro.png" alt="Đề thi">
+                    <h4 class="introduce__title">
+                        Đề thi & Kiểm tra
+                    </h4>
+                </div>
+                
+                <div class="introduce__info">
+                    <div class="exam-categories">
+                        <div class="exam-category">
+                            <div class="exam-category-header">
+                                <i class="fas fa-book"></i>
+                                <h3>Đề thi học kỳ</h3>
+                            </div>
+                            <div class="exam-category-content">
+                                <ul class="exam-list">
+                                    <li><a href="#"><i class="fas fa-file-alt"></i> Đề thi học kỳ 1 môn Toán lớp 12</a></li>
+                                    <li><a href="#"><i class="fas fa-file-alt"></i> Đề thi học kỳ 1 môn Văn lớp 12</a></li>
+                                    <li><a href="#"><i class="fas fa-file-alt"></i> Đề thi học kỳ 1 môn Anh lớp 12</a></li>
+                                    <li><a href="#"><i class="fas fa-file-alt"></i> Đề thi học kỳ 1 môn Lý lớp 12</a></li>
+                                    <li><a href="#"><i class="fas fa-file-alt"></i> Đề thi học kỳ 1 môn Hóa lớp 12</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        <div class="exam-category">
+                            <div class="exam-category-header">
+                                <i class="fas fa-clipboard-check"></i>
+                                <h3>Đề kiểm tra 1 tiết</h3>
+                            </div>
+                            <div class="exam-category-content">
+                                <ul class="exam-list">
+                                    <li><a href="#"><i class="fas fa-file-alt"></i> Đề kiểm tra 1 tiết môn Toán - Chương 1</a></li>
+                                    <li><a href="#"><i class="fas fa-file-alt"></i> Đề kiểm tra 1 tiết môn Văn - Tuần 5</a></li>
+                                    <li><a href="#"><i class="fas fa-file-alt"></i> Đề kiểm tra 1 tiết môn Anh - Unit 3</a></li>
+                                    <li><a href="#"><i class="fas fa-file-alt"></i> Đề kiểm tra 1 tiết môn Lý - Chương 2</a></li>
+                                    <li><a href="#"><i class="fas fa-file-alt"></i> Đề kiểm tra 1 tiết môn Hóa - Chương 1</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        <div class="exam-category">
+                            <div class="exam-category-header">
+                                <i class="fas fa-graduation-cap"></i>
+                                <h3>Đề thi thử THPT Quốc gia</h3>
+                            </div>
+                            <div class="exam-category-content">
+                                <ul class="exam-list">
+                                    <li><a href="#"><i class="fas fa-file-alt"></i> Đề thi thử THPT QG môn Toán lần 1</a></li>
+                                    <li><a href="#"><i class="fas fa-file-alt"></i> Đề thi thử THPT QG môn Văn lần 1</a></li>
+                                    <li><a href="#"><i class="fas fa-file-alt"></i> Đề thi thử THPT QG môn Anh lần 1</a></li>
+                                    <li><a href="#"><i class="fas fa-file-alt"></i> Đề thi thử THPT QG môn Lý lần 1</a></li>
+                                    <li><a href="#"><i class="fas fa-file-alt"></i> Đề thi thử THPT QG môn Hóa lần 1</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer class="footer">
+        <div class="footer-content">
+            <h3>Liên hệ & Góp ý</h3>
+            <p>
+                Mọi sự góp ý và thắc mắc liên hệ chúng mình nhé !
+            </p>
+            <div class="footer-icons">
+                <div class="social-links">
+                    <a href="https://facebook.com" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://zalo.me" target="_blank" title="Zalo"><i class="fas fa-comment-dots"></i></a>
+                    <a href="mailto:contact@example.com" target="_blank" title="Email"><i class="fas fa-envelope"></i></a>
+                </div>
+                <p class="copyright">© 2025 THÙY TRANG 12A1 - TRƯỜNG THPT TRƯỜNG CHINH</p>
+            </div>
+        </div>
+    </footer>
+    
+    <a href="#" class="back-to-top" id="backToTop">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+    
+    <script src="./assets/js/scripts.js"></script>
+    <script src="./assets/js/documents.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
+</body>
+</html>

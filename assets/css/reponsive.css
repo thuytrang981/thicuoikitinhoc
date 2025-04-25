@@ -1,0 +1,337 @@
+@media (max-width: 1024px) {
+
+    .header__title {
+        font-size: 2.8rem;
+        padding: 0 15px;
+        text-align: center;
+    }
+
+    .header__slogan {
+        font-size: 1.5rem;
+        padding: 0 15px;
+        text-align: center;
+    }
+
+    .menu__list--item {
+        padding: 12px 15px;
+    }
+    
+    .menu__list--item a {
+        font-size: 1rem;
+    }
+
+
+    .introduce {
+        margin: 20px 15px;
+    }
+
+    .introduce__title {
+        font-size: 1.7rem;
+    }
+
+    .introduce__title--school {
+        font-size: 1.5rem;
+    }
+
+
+    .content {
+        flex-direction: column;
+    }
+
+    .descriptions-school,
+    .descriptions-teacher,
+    .descriptions-class {
+        width: 100%;
+        font-size: 1.4rem;
+        padding: 10px 0;
+    }
+
+    .img-descriptions {
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    .img-descriptions img {
+        height: auto;
+        width: 100%;
+    }
+
+    .teacher-descriptions img {
+        width: 80%;
+        margin: 15px auto;
+        display: block;
+    }
+    .video-class {
+        margin: 20px 0;
+    }
+
+    .video-class video {
+        width: 100%;
+        height: auto;
+    }
+
+    .comment {
+        padding: 15px;
+    }
+
+    .student-comment {
+        padding: 10px;
+        font-size: 1.3rem;
+    }
+    .descriptions__img {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .descriptions__img img {
+        width: 48%;
+        margin: 1%;
+    }
+
+    .descriptions__menber {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+    }
+
+    .descriptions__img--menber {
+        margin-bottom: 15px;
+    }
+
+    .descriptions__img--menber img {
+        width: 100%;
+    }
+
+    .menber-name {
+        font-size: 1.3rem;
+    }
+
+    .work {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+
+
+    .footer h3 {
+        font-size: 1.6rem;
+    }
+
+    .footer p {
+        font-size: 1.2rem;
+    }
+
+    .footer-icons {
+        flex-direction: column;
+    }
+
+    .social-links {
+        margin-bottom: 15px;
+    }
+
+    .footer-icons a {
+        font-size: 1.6rem;
+        margin: 0 10px;
+    }
+}
+
+
+@media (max-width: 768px) {
+
+    .header__title {
+        font-size: 2.2rem;
+        line-height: 1.3;
+        padding: 10px;
+    }
+
+    .header__slogan {
+        font-size: 1.2rem;
+        padding: 10px;
+    }
+
+
+    .menu-btn {
+        display: block;
+    }
+    
+    .menu__list {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .menu__list.show {
+        display: flex;
+    }
+    
+    .menu__list--item {
+        width: 100%;
+        text-align: left;
+        padding: 0;
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    
+    .menu__list--item a {
+        display: block;
+        padding: 12px 20px;
+    }
+
+
+    .introduce {
+        margin: 15px 10px;
+    }
+
+    .section-header {
+        align-items: center;
+    }
+
+    .icon {
+        width: 20px;
+        height: 20px;
+    }
+
+    .introduce__title {
+        font-size: 1.4rem;
+    }
+
+    .introduce__title--school {
+        font-size: 1.2rem;
+    }
+
+
+    .descriptions,
+    .descriptions-school,
+    .descriptions-teacher,
+    .descriptions-class {
+        font-size: 1.1rem;
+        padding: 8px 0;
+    }
+
+
+    .student-comment {
+        padding: 8px;
+        font-size: 1rem;
+        margin-bottom: 8px;
+    }
+
+
+    .descriptions__img img {
+        width: 100%;
+        margin: 5px 0;
+    }
+
+
+    .descriptions__menber {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    .menber-name {
+        font-size: 1.1rem;
+        padding: 8px;
+    }
+
+
+    .work {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
+    .work img {
+        margin-bottom: 10px;
+    }
+
+
+    .footer {
+        padding: 20px 10px;
+    }
+
+    .footer h3 {
+        font-size: 1.4rem;
+    }
+
+    .footer p {
+        font-size: 1rem;
+        margin: 10px 0;
+    }
+
+    .social-links {
+        margin: 15px 0;
+    }
+
+    .footer-icons a {
+        font-size: 1.4rem;
+        margin: 0 8px;
+    }
+
+    .copyright {
+        font-size: 0.8rem;
+    }
+
+
+    .back-to-top {
+        width: 35px;
+        height: 35px;
+        right: 15px;
+        bottom: 15px;
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .header__title {
+        font-size: 1.8rem;
+    }
+
+    .header__slogan {
+        font-size: 1rem;
+    }
+
+    .menu-btn {
+        font-size: 0.9rem;
+        padding: 10px 15px;
+    }
+    
+    .menu__list--item a {
+        font-size: 0.9rem;
+        padding: 10px 15px;
+    }
+
+    .introduce__title {
+        font-size: 1.2rem;
+    }
+
+    .introduce__title--school {
+        font-size: 1.1rem;
+    }
+
+    .descriptions, 
+    .descriptions-school,
+    .descriptions-teacher,
+    .descriptions-class {
+        font-size: 1rem;
+    }
+
+    .student-comment {
+        font-size: 0.9rem;
+    }
+
+    .descriptions__img--menber img {
+        width: 100%;
+    }
+
+    .menber-name {
+        font-size: 0.9rem;
+    }
+
+    .footer h3 {
+        font-size: 1.2rem;
+    }
+
+    .footer p {
+        font-size: 0.9rem;
+    }
+
+    .footer-icons a {
+        font-size: 1.2rem;
+        margin: 0 6px;
+    }
+}
