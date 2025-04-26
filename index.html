@@ -81,6 +81,9 @@
                                 <a href="hoat-dong.html" class="quick-link" style="display: inline-block; padding: 12px 20px; background-color: var(--accent-secondary); color: white; text-decoration: none; border-radius: 8px; font-size: 1.6rem; transition: all 0.3s ease; box-shadow: var(--shadow-light);">
                                     <i class="fas fa-camera" style="margin-right: 8px;"></i> Hoạt động
                                 </a>
+                                <a href="tai-lieu.html" class="quick-link" style="display: inline-block; padding: 12px 20px; background-color: var(--primary-color); color: white; text-decoration: none; border-radius: 8px; font-size: 1.6rem; transition: all 0.3s ease; box-shadow: var(--shadow-light);">
+                                    <i class="fas fa-book" style="margin-right: 8px;"></i> Tài liệu học tập
+                                </a>
                             </div>
                         </div>
                         <div class="img-descriptions">
@@ -100,18 +103,10 @@
                 
                 <div class="introduce__info">
                     <div class="work">
-                        <img src="./assets/imgs/huyen.jpg" alt="Hoạt động 1">
-                        <img src="./assets/imgs/3.jpg" alt="Hoạt động 2">
-                        <img src="./assets/imgs/4.jpg" alt="Hoạt động 3">
-                        <img src="./assets/imgs/5.jpg" alt="Hoạt động 4">
-                        <img src="./assets/imgs/6.jpg" alt="Hoạt động 5">
-                        <img src="./assets/imgs/7.jpg" alt="Hoạt động 6">
-                        <img src="./assets/imgs/8.jpg" alt="Hoạt động 7">
-                        <img src="./assets/imgs/9.jpg" alt="Hoạt động 8">
-                        <img src="./assets/imgs/17.jpg" alt="Hoạt động 9">
-                        <img src="./assets/imgs/18.jpg" alt="Hoạt động 10">
-                        <img src="./assets/imgs/19.jpg" alt="Hoạt động 11">
-                        <img src="./assets/imgs/20.jpg" alt="Hoạt động 12">
+                        <img src="./assets/imgs/kiyeu.webp" alt="Hoạt động 1">
+                        <img src="./assets/imgs/kiyeu.webp" alt="Hoạt động 2">
+                        <img src="./assets/imgs/kiyeu.webp" alt="Hoạt động 3">
+                        <img src="./assets/imgs/kiyeu.webp" alt="Hoạt động 4">
                     </div>
                     
                     <div style="text-align: center; margin-top: 30px;">
@@ -121,6 +116,458 @@
                     </div>
                 </div>
             </div>
+          
+          <div class="introduce" id="countdown-section">
+              <div class="section-header">
+                  <img class="icon" src="./assets/imgs/icon-intro.png" alt="Đếm ngược">
+                  <h4 class="introduce__title">
+                      Đếm ngược ngày thi THPT Quốc Gia 2025 (26/06/2025)
+                  </h4>
+              </div>
+              
+              <div class="introduce__info">
+                  <div class="countdown-container">
+                      <div class="countdown-item">
+                          <div class="countdown-value" id="countdown-days">00</div>
+                          <div class="countdown-label">Ngày</div>
+                      </div>
+                      <div class="countdown-item">
+                          <div class="countdown-value" id="countdown-hours">00</div>
+                          <div class="countdown-label">Giờ</div>
+                      </div>
+                      <div class="countdown-item">
+                          <div class="countdown-value" id="countdown-minutes">00</div>
+                          <div class="countdown-label">Phút</div>
+                      </div>
+                      <div class="countdown-item">
+                          <div class="countdown-value" id="countdown-seconds">00</div>
+                          <div class="countdown-label">Giây</div>
+                      </div>
+                  </div>
+                  <div class="exam-info">
+                      <p><i class="fas fa-calendar-alt"></i> Ngày thi: <strong>26/06/2025 - 28/06/2025</strong></p>
+                      <p><i class="fas fa-info-circle"></i> Chuẩn bị đầy đủ giấy tờ tùy thân, thẻ dự thi và dụng cụ học tập cần thiết.</p>
+                      <p><i class="fas fa-book"></i> Xem lịch thi chi tiết và tài liệu ôn tập <a href="tai-lieu.html">tại đây</a>.</p>
+                  </div>
+              </div>
+          </div>
+          
+          <div class="introduce" id="schedule-section">
+              <div class="section-header">
+                  <img class="icon" src="./assets/imgs//icon-intro.png" alt="Thời khóa biểu">
+                  <h4 class="introduce__title">
+                      Thời khóa biểu lớp 12A1
+                  </h4>
+              </div>
+              
+              <div class="introduce__info">
+                  <div class="schedule-controls">
+                      <div class="schedule-info">
+                          <p><i class="fas fa-calendar-check"></i> Áp dụng từ ngày: <strong id="current-date">26/04/2025</strong></p>
+                          <p><i class="fas fa-sync-alt"></i> Cập nhật lần cuối: <strong id="last-update">26/04/2025</strong></p>
+                      </div>
+                      <div class="schedule-tabs">
+                          <button class="schedule-tab" data-day="2">Thứ 2</button>
+                          <button class="schedule-tab" data-day="3">Thứ 3</button>
+                          <button class="schedule-tab" data-day="4">Thứ 4</button>
+                          <button class="schedule-tab" data-day="5">Thứ 5</button>
+                          <button class="schedule-tab" data-day="6">Thứ 6</button>
+                          <button class="schedule-tab" data-day="7">Thứ 7</button>
+                      </div>
+                  </div>
+                  
+                  <div class="schedule-container">
+                      <div class="schedule-day" id="schedule-day-2">
+                          <table class="schedule-table">
+                              <thead>
+                                  <tr>
+                                      <th>Tiết</th>
+                                      <th>Thời gian</th>
+                                      <th>Môn học</th>
+                                      <th>Giáo viên</th>
+                                      <th>Phòng học</th>
+                                  </tr>
+                              </thead>
+                              <tbody>
+                                  <tr>
+                                      <td>Sáng</td>
+                                      <td>07:15 - 07:30</td>
+                                      <td>Chào cờ</td>
+                                      <td>Phan Công Tú</td>
+                                      <td>Sân trường</td>
+                                  </tr>
+                                  <tr>
+                                      <td>1</td>
+                                      <td>07:30 - 08:15</td>
+                                      <td>Sinh hoạt lớp</td>
+                                      <td>Phan Công Tú</td>
+                                      <td>12A1</td>
+                                  </tr>
+                                  <tr>
+                                      <td>2</td>
+                                      <td>08:20 - 09:05</td>
+                                      <td>-</td>
+                                      <td>-</td>
+                                      <td>-</td>
+                                  </tr>
+                                  <tr>
+                                      <td>3</td>
+                                      <td>09:15 - 10:00</td>
+                                      <td>-</td>
+                                      <td>-</td>
+                                      <td>-</td>
+                                  </tr>
+                                  <tr>
+                                      <td>4</td>
+                                      <td>10:10 - 10:55</td>
+                                      <td>Vật lí</td>
+                                      <td>Phan Công Tú</td>
+                                      <td>12A1</td>
+                                  </tr>
+                                  <tr>
+                                      <td>5</td>
+                                      <td>11:00 - 11:45</td>
+                                      <td>-</td>
+                                      <td>-</td>
+                                      <td>-</td>
+                                  </tr>
+                                  <tr>
+                                      <td>Chiều</td>
+                                      <td>13:30 - 14:15</td>
+                                      <td>HĐTN</td>
+                                      <td>Vũ Thị Huyền</td>
+                                      <td>12A1</td>
+                                  </tr>
+                                  <tr>
+                                      <td>2</td>
+                                      <td>14:20 - 15:05</td>
+                                      <td>HĐTN</td>
+                                      <td>Vũ Thị Huyền</td>
+                                      <td>12A1</td>
+                                  </tr>
+                                  <tr>
+                                      <td>3</td>
+                                      <td>15:15 - 16:00</td>
+                                      <td>HĐTN</td>
+                                      <td>Vũ Thị Huyền</td>
+                                      <td>12A1</td>
+                                  </tr>
+                              </tbody>
+                          </table>
+                      </div>
+                      
+                      <div class="schedule-day" id="schedule-day-3">
+                          <table class="schedule-table">
+                              <thead>
+                                  <tr>
+                                      <th>Tiết</th>
+                                      <th>Thời gian</th>
+                                      <th>Môn học</th>
+                                      <th>Giáo viên</th>
+                                      <th>Phòng học</th>
+                                  </tr>
+                              </thead>
+                              <tbody>
+                                  <tr>
+                                      <td>1</td>
+                                      <td>07:15 - 08:00</td>
+                                      <td>Ngữ văn</td>
+                                      <td>Nguyễn Thị Ngân</td>
+                                      <td>12A1</td>
+                                  </tr>
+                                  <tr>
+                                      <td>2</td>
+                                      <td>08:05 - 08:50</td>
+                                      <td>Ngữ văn</td>
+                                      <td>Nguyễn Thị Ngân</td>
+                                      <td>12A1</td>
+                                  </tr>
+                                  <tr>
+                                      <td>3</td>
+                                      <td>09:00 - 09:45</td>
+                                      <td>-</td>
+                                      <td>-</td>
+                                      <td>-</td>
+                                  </tr>
+                                  <tr>
+                                      <td>4</td>
+                                      <td>09:55 - 10:40</td>
+                                      <td>Hóa học</td>
+                                      <td>Nghiêm Thị Mai Trang</td>
+                                      <td>12A1</td>
+                                  </tr>
+                                  <tr>
+                                      <td>5</td>
+                                      <td>10:45 - 11:30</td>
+                                      <td>Hóa học</td>
+                                      <td>Nghiêm Thị Mai Trang</td>
+                                      <td>12A1</td>
+                                  </tr>
+                                  <tr>
+                                      <td>Chiều</td>
+                                      <td>13:30 - 17:00</td>
+                                      <td>-</td>
+                                      <td>-</td>
+                                      <td>-</td>
+                                  </tr>
+                              </tbody>
+                          </table>
+                      </div>
+                      
+                      <div class="schedule-day" id="schedule-day-4">
+                          <table class="schedule-table">
+                              <thead>
+                                  <tr>
+                                      <th>Tiết</th>
+                                      <th>Thời gian</th>
+                                      <th>Môn học</th>
+                                      <th>Giáo viên</th>
+                                      <th>Phòng học</th>
+                                  </tr>
+                              </thead>
+                              <tbody>
+                                  <tr>
+                                      <td>1</td>
+                                      <td>07:15 - 08:00</td>
+                                      <td>-</td>
+                                      <td>-</td>
+                                      <td>-</td>
+                                  </tr>
+                                  <tr>
+                                      <td>2</td>
+                                      <td>08:05 - 08:50</td>
+                                      <td>Sinh học</td>
+                                      <td>Lê Văn Sỹ</td>
+                                      <td>12A1</td>
+                                  </tr>
+                                  <tr>
+                                      <td>3</td>
+                                      <td>09:00 - 09:45</td>
+                                      <td>Tin học</td>
+                                      <td>Lê Thị Mỹ Linh</td>
+                                      <td>Phòng máy</td>
+                                  </tr>
+                                  <tr>
+                                      <td>4</td>
+                                      <td>09:55 - 10:40</td>
+                                      <td>GDQP-AN</td>
+                                      <td>Đinh Tiến Hào</td>
+                                      <td>12A1</td>
+                                  </tr>
+                                  <tr>
+                                      <td>5</td>
+                                      <td>10:45 - 11:30</td>
+                                      <td>Ngữ văn</td>
+                                      <td>Nguyễn Thị Ngân</td>
+                                      <td>12A1</td>
+                                  </tr>
+                                  <tr>
+                                      <td>Chiều</td>
+                                      <td>13:30 - 14:15</td>
+                                      <td>Toán</td>
+                                      <td>Trần Thị Thu Hiền</td>
+                                      <td>12A1</td>
+                                  </tr>
+                                  <tr>
+                                      <td>2</td>
+                                      <td>14:20 - 15:05</td>
+                                      <td>Toán</td>
+                                      <td>Trần Thị Thu Hiền</td>
+                                      <td>12A1</td>
+                                  </tr>
+                                  <tr>
+                                      <td>3</td>
+                                      <td>15:15 - 16:00</td>
+                                      <td>-</td>
+                                      <td>-</td>
+                                      <td>-</td>
+                                  </tr>
+                              </tbody>
+                          </table>
+                      </div>
+                      
+                      <div class="schedule-day" id="schedule-day-5">
+                          <table class="schedule-table">
+                              <thead>
+                                  <tr>
+                                      <th>Tiết</th>
+                                      <th>Thời gian</th>
+                                      <th>Môn học</th>
+                                      <th>Giáo viên</th>
+                                      <th>Phòng học</th>
+                                  </tr>
+                              </thead>
+                              <tbody>
+                                  <tr>
+                                      <td>1</td>
+                                      <td>07:15 - 08:00</td>
+                                      <td>-</td>
+                                      <td>-</td>
+                                      <td>-</td>
+                                  </tr>
+                                  <tr>
+                                      <td>2</td>
+                                      <td>08:05 - 08:50</td>
+                                      <td>Toán</td>
+                                      <td>Trần Thị Thu Hiền</td>
+                                      <td>12A1</td>
+                                  </tr>
+                                  <tr>
+                                      <td>3</td>
+                                      <td>09:00 - 09:45</td>
+                                      <td>Toán</td>
+                                      <td>Trần Thị Thu Hiền</td>
+                                      <td>12A1</td>
+                                  </tr>
+                                  <tr>
+                                      <td>4</td>
+                                      <td>09:55 - 10:40</td>
+                                      <td>Ngoại ngữ</td>
+                                      <td>Nguyễn Thị Thành</td>
+                                      <td>12A1</td>
+                                  </tr>
+                                  <tr>
+                                      <td>5</td>
+                                      <td>10:45 - 11:30</td>
+                                      <td>-</td>
+                                      <td>-</td>
+                                      <td>-</td>
+                                  </tr>
+                                  <tr>
+                                      <td>Chiều</td>
+                                      <td>13:30 - 17:00</td>
+                                      <td>-</td>
+                                      <td>-</td>
+                                      <td>-</td>
+                                  </tr>
+                              </tbody>
+                          </table>
+                      </div>
+                      
+                      <div class="schedule-day" id="schedule-day-6">
+                          <table class="schedule-table">
+                              <thead>
+                                  <tr>
+                                      <th>Tiết</th>
+                                      <th>Thời gian</th>
+                                      <th>Môn học</th>
+                                      <th>Giáo viên</th>
+                                      <th>Phòng học</th>
+                                  </tr>
+                              </thead>
+                              <tbody>
+                                  <tr>
+                                      <td>1</td>
+                                      <td>07:15 - 08:00</td>
+                                      <td>Toán</td>
+                                      <td>Trần Thị Thu Hiền</td>
+                                      <td>12A1</td>
+                                  </tr>
+                                  <tr>
+                                      <td>2</td>
+                                      <td>08:05 - 08:50</td>
+                                      <td>-</td>
+                                      <td>-</td>
+                                      <td>-</td>
+                                  </tr>
+                                  <tr>
+                                      <td>3</td>
+                                      <td>09:00 - 09:45</td>
+                                      <td>Vật lí</td>
+                                      <td>Phan Công Tú</td>
+                                      <td>12A1</td>
+                                  </tr>
+                                  <tr>
+                                      <td>4</td>
+                                      <td>09:55 - 10:40</td>
+                                      <td>Vật lí</td>
+                                      <td>Phan Công Tú</td>
+                                      <td>12A1</td>
+                                  </tr>
+                                  <tr>
+                                      <td>5</td>
+                                      <td>10:45 - 11:30</td>
+                                      <td>Lịch sử</td>
+                                      <td>Võ Thị Kim Lợi</td>
+                                      <td>12A1</td>
+                                  </tr>
+                                  <tr>
+                                      <td>Chiều</td>
+                                      <td>13:30 - 17:00</td>
+                                      <td>-</td>
+                                      <td>-</td>
+                                      <td>-</td>
+                                  </tr>
+                              </tbody>
+                          </table>
+                      </div>
+                      
+                      <div class="schedule-day" id="schedule-day-7">
+                          <table class="schedule-table">
+                              <thead>
+                                  <tr>
+                                      <th>Tiết</th>
+                                      <th>Thời gian</th>
+                                      <th>Môn học</th>
+                                      <th>Giáo viên</th>
+                                      <th>Phòng học</th>
+                                  </tr>
+                              </thead>
+                              <tbody>
+                                  <tr>
+                                      <td>1</td>
+                                      <td>07:15 - 08:00</td>
+                                      <td>-</td>
+                                      <td>-</td>
+                                      <td>-</td>
+                                  </tr>
+                                  <tr>
+                                      <td>2</td>
+                                      <td>08:05 - 08:50</td>
+                                      <td>-</td>
+                                      <td>-</td>
+                                      <td>-</td>
+                                  </tr>
+                                  <tr>
+                                      <td>3</td>
+                                      <td>09:00 - 09:45</td>
+                                      <td>-</td>
+                                      <td>-</td>
+                                      <td>-</td>
+                                  </tr>
+                                  <tr>
+                                      <td>4</td>
+                                      <td>09:55 - 10:40</td>
+                                      <td>-</td>
+                                      <td>-</td>
+                                      <td>-</td>
+                                  </tr>
+                                  <tr>
+                                      <td>5</td>
+                                      <td>10:45 - 11:30</td>
+                                      <td>-</td>
+                                      <td>-</td>
+                                      <td>-</td>
+                                  </tr>
+                                  <tr>
+                                      <td>Chiều</td>
+                                      <td>13:30 - 17:00</td>
+                                      <td>-</td>
+                                      <td>-</td>
+                                      <td>-</td>
+                                  </tr>
+                              </tbody>
+                          </table>
+                      </div>
+                  </div>
+                  
+                  <div class="schedule-note">
+                      <p><i class="fas fa-info-circle"></i> <strong>Lưu ý:</strong> Học sinh cần có mặt tại lớp trước giờ học 15 phút.</p>
+                      <p><i class="fas fa-bell"></i> <strong>Giờ học:</strong> Sáng từ 7:15 - 11:45, Chiều từ 13:30 - 17:00.</p>
+                      <p><i class="fas fa-book"></i> <strong>HĐTN:</strong> Hoạt động trải nghiệm.</p>
+                  </div>
+              </div>
+          </div>
         </div>
     </section>
     
@@ -146,6 +593,8 @@
     </a>
     
     <script src="./assets/js/scripts.js"></script>
+    <script src="./assets/js/countdown.js"></script>
+    <script src="./assets/js/schedule.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
 </body>
 </html>

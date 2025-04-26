@@ -13,16 +13,13 @@ backToTopButton.addEventListener("click", (e) => {
   window.scrollTo({ top: 0, behavior: "smooth" })
 })
 
-
 document.querySelectorAll(".menu__list--item a").forEach((anchor) => {
   anchor.addEventListener("click", function (e) {
     const href = this.getAttribute("href")
-    
-
     if (href.startsWith("#")) {
       e.preventDefault()
       const targetElement = document.getElementById(href.substring(1))
-      
+
       if (targetElement) {
         window.scrollTo({
           top: targetElement.offsetTop - 80,
@@ -30,7 +27,7 @@ document.querySelectorAll(".menu__list--item a").forEach((anchor) => {
         })
       }
     }
-
+    
   })
 })
 
@@ -55,7 +52,7 @@ galleryImages.forEach((img) => {
   })
 })
 
-
+// Typewriter effect for slogan
 document.addEventListener("DOMContentLoaded", () => {
   setTimeout(() => {
     const slogan = document.querySelector(".header__slogan")
@@ -126,7 +123,7 @@ document.addEventListener("DOMContentLoaded", () => {
       })
     })
 
-
+  
     window.addEventListener("resize", () => {
       if (window.innerWidth > 768) {
         menuList.classList.remove("show")
@@ -138,7 +135,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 document.addEventListener("DOMContentLoaded", () => {
-  const currentPage = window.location.pathname.split("/").pop() || "index.html";
+  const currentPage = window.location.pathname.split("/").pop() || "index.html"
 
   const menuItems = document.querySelectorAll(".menu__list--item a")
 
@@ -176,6 +173,7 @@ document.addEventListener("DOMContentLoaded", () => {
   })
 })
 
+
 document.addEventListener("DOMContentLoaded", () => {
   const galleryImages = document.querySelectorAll(".work img")
 
@@ -196,4 +194,21 @@ document.addEventListener("DOMContentLoaded", () => {
       })
     })
   })
+})
+
+document.addEventListener("DOMContentLoaded", () => {
+  const currentDateElement = document.getElementById("current-date")
+  const lastUpdateElement = document.getElementById("last-update")
+
+  if (currentDateElement && lastUpdateElement) {
+    const now = new Date()
+    const day = String(now.getDate()).padStart(2, "0")
+    const month = String(now.getMonth() + 1).padStart(2, "0")
+    const year = now.getFullYear()
+
+    const formattedDate = `${day}/${month}/${year}`
+
+    currentDateElement.textContent = formattedDate
+    lastUpdateElement.textContent = formattedDate
+  }
 })
